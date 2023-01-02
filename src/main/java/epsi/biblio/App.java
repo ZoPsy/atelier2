@@ -80,7 +80,7 @@ public class App
             +"<header>"
             +"  <div class='collapse bg-dark' id='navbarHeader'><div class='container'><div class='row'>"
             +"    <div class='col-sm-8 col-md-7 py-4'><h4 class='text-white'>A propos</h4>"
-            +"      <p class='text-muted'>N° d'emprunteur : " + emprunteurCourant.getNumero() + "</p>"
+            +"      <p class='text-muted'>N° d'emprunteur/se : " + emprunteurCourant.getNumero() + "</p>"
             +"    </div>"
             +"    <div class='col-sm-4 offset-md-1 py-4'>"
             +"      <h4 class='text-white'>Contacts</h4>"
