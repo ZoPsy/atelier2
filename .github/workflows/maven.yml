@@ -49,8 +49,3 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: wwwroot
         target_branch: ghpages
-    
-    - name: Push main
-      uses: actions/git-client@v2
-      with:
-        args: push origin main
