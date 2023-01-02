@@ -1,3 +1,9 @@
+# Personnes sur le projet
+Benjamin
+Brice
+Tudor
+
+
 # Biblio
 A console application for html generation using stdin for data ingestion.
 
