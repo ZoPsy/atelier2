@@ -95,7 +95,7 @@ public class App
             +"  </div></div>"
             +"</header>"
             +"<main>"
-            +"  <section class='py-5 text-center container'><div class='row py-lg-5'><div class='col-lg-6 col-md-8 mx-auto'><h1 class='fw-light'>Emprunts en cours</h1>"
+            +"  <section class='py-5 text-center container'><div class='row py-lg-5'><div class='col-lg-6 col-md-8 mx-auto'><h1 class='fw-light'>Les emprunts en cours</h1>"
             +"  <p class='lead text-muted'>Voici la liste des livres que vous avez empruntés.</p>"
             +"  </div></div></section>"
             +"  <div class='album py-5 bg-light'><div class='container'><div class='row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3'>");
