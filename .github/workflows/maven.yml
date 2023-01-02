@@ -43,7 +43,7 @@ jobs:
     - name: Création htmls
       run: mvn -B package -Pmake-html
 
-    - name: Deploiement page github
+    - name: Deploiement pages github
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
