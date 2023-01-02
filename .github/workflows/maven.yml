@@ -42,3 +42,15 @@ jobs:
 
     - name: Création htmls
       run: mvn -B package -Pmake-html
+
+    - name: Deploiement page github
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: wwwroot
+        target_branch: ghpages
+    
+    - name: Push main
+      uses: actions/git-client@v2
+      with:
+        args: push origin main
