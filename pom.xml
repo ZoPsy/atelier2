@@ -73,3 +73,33 @@
     </pluginManagement>
   </build>
 </project>
+
+  <!-- html -->
+<profiles>
+  <profile>
+    <id>make-html</id>
+    <build>
+      <plugins>
+        <plugin>
+          <artifactId>exec-maven-plugin</artifactId>
+          <version>3.0.0</version>
+          <executions>
+            <execution>
+              <id>make-html</id>
+              <phase>package</phase>
+              <goals>
+                <goal>exec</goal>
+              </goals>
+              <configuration>
+                <executable>/bin/sh</executable>
+                <arguments>
+                  <argument>/path/to/make_html.sh</argument>
+                </arguments>
+              </configuration>
+            </execution>
+          </executions>
+        </plugin>
+      </plugins>
+    </build>
+  </profile>
+</profiles>
